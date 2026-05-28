@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+/* HERO */
+
+.hero-section {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/ac/aa/3f/enjoy-high-japanese-cuisine.jpg?w=1200&s=1");
+
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.hero-content {
+  padding-top: 140px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 12px 28px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+}
+
+.primary-btn {
+  background-color: #e67e22;
+  color: white;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 1px solid #e67e22;
+  color: #e67e22;
+}
+
+/* HOW SECTION */
+
+.how-section {
+  padding: 80px 0;
+}
+
+.how-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.phone-image img {
+  max-width: 300px;
+  margin: auto;
+}
+
+.steps-content {
+  flex: 1;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 35px;
+}
+
+.step span {
+  min-width: 45px;
+  height: 45px;
+  border: 2px solid #e67e22;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.store-buttons img {
+  width: 160px;
+}
+
+/* CITIES */
+
+.cities-section {
+  padding: 80px 0;
+  background-color: #f7f7f7;
+}
+
+.cities-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.city-card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.city-card h3 {
+  padding: 15px;
+}
+
+.city-card ul {
+  list-style: none;
+  padding: 0 15px 20px;
+}
+
+.city-card li {
+  margin-bottom: 10px;
+}
+
+/* TESTIMONIAL */
+
+.testimonial-section {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://img.magnific.com/free-vector/abstract-chat-box-shape-pattern-white-background_1017-59690.jpg?semt=ais_hybrid&w=740&q=80");
+
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 80px 0;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.testimonial-card p {
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* PRICING */
+
+.pricing-section {
+  padding: 80px 0;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.pricing-card {
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.pricing-card h1 {
+  margin: 20px 0;
+  color: #e67e22;
+}
+
+.pricing-card h1 span {
+  font-size: 16px;
+  color: #555;
+}
+
+.pricing-card ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.pricing-card li {
+  margin-bottom: 15px;
+}
+
+.pricing-card button {
+  padding: 12px 24px;
+  border: none;
+  background-color: #e67e22;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 30px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* TABLET */
+
+@media (max-width: 834px) {
+  .cities-grid,
+  .pricing-grid,
+  .testimonial-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .how-wrapper {
+    flex-direction: column;
+  }
+
+  .hero-content h1 {
+    font-size: 2.3rem;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 390px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .cities-grid,
+  .pricing-grid,
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    text-align: center;
+  }
+}
