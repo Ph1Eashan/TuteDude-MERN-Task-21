@@ -2,26 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <!-- added viewport because earlier mobile layout was zoomed out -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>OmniFood Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome for icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <!-- HERO SECTION -->
+    <!-- main hero section -->
+
+    <!-- using header because this is the top section of the website -->
 
     <header class="hero-section">
+      <!-- navbar -->
+
       <nav class="navbar container">
+        <!-- logo -->
+
         <div class="logo">
           <img
             src="https://www.pngitem.com/pimgs/m/156-1568069_abstract-logo-png-png-transparent-png.png"
-            alt="logo"
+            alt="omnifood logo"
           />
         </div>
+
+        <!-- mobile menu icon -->
+        <!-- added this later because nav items were overflowing -->
+
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- nav links -->
 
         <ul class="nav-links">
           <li><a href="#">Food Delivery</a></li>
@@ -31,7 +52,11 @@
         </ul>
       </nav>
 
+      <!-- hero content -->
+
       <div class="hero-content container">
+        <!-- tried center text earlier but left alignment looked better -->
+
         <h1>
           Goodbye Junk Food <br />
           Hello Super Healthy Food
@@ -39,6 +64,7 @@
 
         <div class="hero-buttons">
           <button class="primary-btn">I'm Hungry</button>
+
           <button class="secondary-btn">Show me more</button>
         </div>
       </div>
@@ -46,59 +72,74 @@
 
     <!-- HOW IT WORKS -->
 
+    <!-- using section because this is a separate content block -->
+
     <section class="how-section container">
       <h2>How It Works</h2>
 
       <div class="how-wrapper">
+        <!-- phone image -->
+
         <div class="phone-image">
           <img
             src="https://e7.pngegg.com/pngimages/441/428/png-clipart-huawei-mate-20-lite-mockup-electronics-android-phones-thumbnail.png"
-            alt="phone"
+            alt="phone image"
           />
         </div>
+
+        <!-- steps -->
 
         <div class="steps-content">
           <div class="step">
             <span>1</span>
+
             <p>Choose plan that fits best for your need and sign-up today.</p>
           </div>
 
           <div class="step">
             <span>2</span>
+
             <p>Pay for the plan and download the app.</p>
           </div>
 
           <div class="step">
             <span>3</span>
+
             <p>You are done, start ordering!!</p>
           </div>
+
+          <!-- app buttons -->
 
           <div class="store-buttons">
             <img
               src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Logo_Play_512px_clr_nGVTgYY.max-1440x810.png"
-              alt=""
+              alt="google play"
             />
+
             <img
               src="https://www.apple.com/v/app-store/c/images/overview/icon_appstore__ev0z770zyxoy_large_2x.png"
-              alt=""
+              alt="app store"
             />
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CITIES SECTION -->
+    <!-- cities section -->
 
     <section class="cities-section">
       <div class="container">
         <h2>We're Currently In These Cities</h2>
 
         <div class="cities-grid">
+          <!-- city card -->
+
           <div class="city-card">
             <img
               src="https://png.pngtree.com/png-vector/20210826/ourmid/pngtree-high-rise-buildings-in-lisbon-city-skyline-portugal-png-image_3819809.jpg"
-              alt=""
+              alt="lisbon"
             />
+
             <h3>Lisbon</h3>
 
             <ul>
@@ -111,8 +152,9 @@
           <div class="city-card">
             <img
               src="https://png.pngtree.com/png-clipart/20190611/original/pngtree-vector-london-png-image_2133711.jpg"
-              alt=""
+              alt="london"
             />
+
             <h3>London</h3>
 
             <ul>
@@ -125,8 +167,9 @@
           <div class="city-card">
             <img
               src="https://png.pngtree.com/element_pic/00/16/10/1057fb975a5fd71.png"
-              alt=""
+              alt="berlin"
             />
+
             <h3>Berlin</h3>
 
             <ul>
@@ -139,8 +182,9 @@
           <div class="city-card">
             <img
               src="https://png.pngtree.com/png-vector/20190511/ourmid/pngtree-skyline-san-francisco-png-image_1030936.jpg"
-              alt=""
+              alt="san francisco"
             />
+
             <h3>San Francisco</h3>
 
             <ul>
@@ -153,7 +197,7 @@
       </div>
     </section>
 
-    <!-- TESTIMONIALS -->
+    <!-- testimonials -->
 
     <section class="testimonial-section">
       <div class="overlay">
@@ -170,8 +214,9 @@
               <div class="user-info">
                 <img
                   src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001877.png"
-                  alt=""
+                  alt="user"
                 />
+
                 <span>Albert Duncan</span>
               </div>
             </div>
@@ -185,8 +230,9 @@
               <div class="user-info">
                 <img
                   src="https://img.favpng.com/3/11/24/3d-woman-avatar-stylized-cartoon-woman-avatar-with-glasses-g0FutwYY_t.jpg"
-                  alt=""
+                  alt="user"
                 />
+
                 <span>Joana Silva</span>
               </div>
             </div>
@@ -200,8 +246,9 @@
               <div class="user-info">
                 <img
                   src="https://static.vecteezy.com/system/resources/thumbnails/048/216/761/small/modern-male-avatar-with-black-hair-and-hoodie-illustration-free-png.png"
-                  alt=""
+                  alt="user"
                 />
+
                 <span>Milton Chapman</span>
               </div>
             </div>
@@ -210,7 +257,7 @@
       </div>
     </section>
 
-    <!-- PRICING -->
+    <!-- pricing section -->
 
     <section class="pricing-section">
       <div class="container">
@@ -219,13 +266,16 @@
         <div class="pricing-grid">
           <div class="pricing-card">
             <h3>Premium</h3>
+
             <h1>$399<span>/ month</span></h1>
 
             <ul>
-              <li>1 meal every day</li>
-              <li>Order 24/7</li>
-              <li>Access to newest creations</li>
-              <li>Free delivery</li>
+              <li><i class="fa-solid fa-check"></i> 1 meal every day</li>
+              <li><i class="fa-solid fa-check"></i> Order 24/7</li>
+              <li>
+                <i class="fa-solid fa-check"></i> Access to newest creations
+              </li>
+              <li><i class="fa-solid fa-check"></i> Free delivery</li>
             </ul>
 
             <button>Sign Up</button>
@@ -233,13 +283,16 @@
 
           <div class="pricing-card">
             <h3>Pro</h3>
+
             <h1>$199<span>/ month</span></h1>
 
             <ul>
-              <li>1 meal 10 days/month</li>
-              <li>Order 24/7</li>
-              <li>Access to newest creations</li>
-              <li>Free delivery</li>
+              <li><i class="fa-solid fa-check"></i> 1 meal 10 days/month</li>
+              <li><i class="fa-solid fa-check"></i> Order 24/7</li>
+              <li>
+                <i class="fa-solid fa-check"></i> Access to newest creations
+              </li>
+              <li><i class="fa-solid fa-check"></i> Free delivery</li>
             </ul>
 
             <button>Sign Up</button>
@@ -247,13 +300,16 @@
 
           <div class="pricing-card">
             <h3>Starter</h3>
+
             <h1>$19<span>/ meal</span></h1>
 
             <ul>
-              <li>1 meal</li>
-              <li>Order from 8 am to 12 pm</li>
-              <li>Limited access</li>
-              <li>Free delivery</li>
+              <li><i class="fa-solid fa-check"></i> 1 meal</li>
+              <li>
+                <i class="fa-solid fa-check"></i> Order from 8 am to 12 pm
+              </li>
+              <li><i class="fa-solid fa-xmark"></i> Limited access</li>
+              <li><i class="fa-solid fa-check"></i> Free delivery</li>
             </ul>
 
             <button>Sign Up</button>
@@ -262,7 +318,7 @@
       </div>
     </section>
 
-    <!-- FOOTER -->
+    <!-- footer -->
 
     <footer>
       <div class="container footer-wrapper">
@@ -276,9 +332,7 @@
 
         <div class="social-icons">
           <i class="fa-brands fa-instagram"></i>
-
           <i class="fa-brands fa-facebook"></i>
-
           <i class="fa-brands fa-twitter"></i>
         </div>
       </div>
@@ -287,5 +341,18 @@
         Copyright © 2026 by OmniFood. All rights reserved.
       </p>
     </footer>
+
+    <!-- mobile menu toggle -->
+
+    <script>
+      const menuBtn = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector(".nav-links");
+
+      // toggles menu on small screens
+
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>

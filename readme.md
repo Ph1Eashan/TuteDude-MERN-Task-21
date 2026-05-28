@@ -1,21 +1,22 @@
 # OmniFood Landing Page
 
-A responsive single-page food delivery landing page inspired by modern food ordering platforms.
+This project is a responsive landing page for a food delivery website called OmniFood.  
+The assignment was mainly focused on practicing HTML structure, CSS layouts, Flexbox/Grid, and responsive design for different screen sizes.
 
-This project was built using HTML and CSS as part of a frontend development assignment focused on layout structuring, responsive design, and UI implementation.
+I built the project using only HTML, CSS and a little bit of JavaScript for the mobile navigation menu.
 
 ---
 
 ## Features
 
-- Responsive navigation bar
-- Hero section with CTA buttons
-- How It Works section
-- Cities showcase grid
-- Customer testimonials section
-- Pricing plans cards
-- Footer with social links
-- Mobile responsive layout
+- Responsive hero section with background overlay
+- Navigation bar with mobile hamburger menu
+- "How It Works" section
+- Cities cards layout
+- Testimonials section
+- Pricing plans section
+- Footer with social icons
+- Mobile responsive design
 
 ---
 
@@ -23,11 +24,12 @@ This project was built using HTML and CSS as part of a frontend development assi
 
 - HTML5
 - CSS3
+- JavaScript
 - Font Awesome
 
 ---
 
-## Responsive Breakpoints
+## Responsive Breakpoints Used
 
 ### Desktop
 
@@ -41,32 +43,46 @@ This project was built using HTML and CSS as part of a frontend development assi
 
 - 390px and below
 
+---
+
+## Challenges I Faced
+
+One issue I faced was making the navigation work properly on mobile devices.
+
+At first I only stacked the navbar links vertically, but after checking the assignment again I realized a hamburger menu was required. I then added a small JavaScript toggle function to show and hide the menu on smaller screens.
+
+Another issue was horizontal scrolling on mobile view. Earlier some sections were overflowing because of spacing and image sizing. I fixed this by adjusting widths and adding `overflow-x: hidden` on the body.
+
+I also experimented with Flexbox first in some sections, but later switched to CSS Grid because it handled the card layouts more cleanly.
+
+---
+
+## What I Learned
+
+Through this project I practiced:
+
+- Semantic HTML tags
+- CSS Flexbox
+- CSS Grid
+- Media queries
+- Mobile responsive layouts
+- Positioning and spacing
+- Mobile navigation menu toggle
+
+I also learned how small spacing issues can affect responsiveness on mobile screens.
+
+---
+
 ## How to Run
 
-1. Download or clone the repository
-2. Open the project folder
-3. Open `index.html` in any browser
+1. Download the project folder
+2. Open the folder
+3. Run `index.html` in the browser
 
-No additional setup or installation is required.
-
----
-
-## Project Objective
-
-The main objective of this project was to practice:
-
-- Semantic HTML structure
-- CSS Flexbox and Grid
-- Responsive layouts
-- Section-based UI design
-- Reusable styling patterns
+No installation or setup is required.
 
 ---
 
-## Future Improvements
+## Notes
 
-- Hamburger menu using JavaScript
-- Smooth scrolling navigation
-- Additional hover animations
-- Backend integration for food ordering
-- More interactive UI components
+I tried to keep the structure simple and readable while practicing responsive design concepts. Some parts were adjusted multiple times during testing, especially the navbar and grid layouts on smaller screens.
